@@ -1,0 +1,30 @@
+eeschema (2013-may-18)-stable  >> Creation date: Sat 28 Mar 2015 12:35:41 AM IRDT
+#Cmp ( order = Reference )
+| D1         5V1         ~                   ; ~           ; ~           
+| D2         5V1         ~                   ; ~           ; ~           
+| D3         1N4001      ~                   ; ~           ; ~           
+| J1         DB9         ~                   ; ~           ; ~           
+| P1         CONN_6      ~                   ; ~           ; ~           
+| Q1         NPN         ~                   ; ~           ; ~           
+| R2         4k7         ~                   ; ~           ; ~           
+| R3         4k7         ~                   ; ~           ; ~           
+| R4         10k         ~                   ; ~           ; ~           
+| R5         22k         ~                   ; ~           ; ~           
+| R6         10k         ~                   ; ~           ; ~           
+#End Cmp
+
+#Cmp ( order = Value )
+| 5V1          D1        ; ~           ; ~           
+| 5V1          D2        ; ~           ; ~           
+| 1N4001       D3        ; ~           ; ~           
+| DB9          J1        ; ~           ; ~           
+| CONN_6       P1        ; ~           ; ~           
+| NPN          Q1        ; ~           ; ~           
+| 4k7          R2        ; ~           ; ~           
+| 4k7          R3        ; ~           ; ~           
+| 10k          R4        ; ~           ; ~           
+| 10k          R6        ; ~           ; ~           
+| 22k          R5        ; ~           ; ~           
+#End Cmp
+
+#End List
